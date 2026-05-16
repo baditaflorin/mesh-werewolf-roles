@@ -1,14 +1,9 @@
-/* App-local styles. Mesh chrome (settings drawer, self-ref bar) is provided by
- * @baditaflorin/mesh-common/styles.css imported in main.tsx. */
-
 :root {
   color-scheme: dark;
 }
-
 * {
   box-sizing: border-box;
 }
-
 html,
 body,
 #root {
@@ -19,33 +14,25 @@ body,
   background: var(--mesh-bg);
   color: var(--mesh-fg);
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", system-ui, sans-serif;
-  -webkit-tap-highlight-color: transparent;
 }
-
-.feature-placeholder {
-  padding: 6rem 1.5rem 2rem;
+.wf-role {
+  padding: 1rem;
+  background: rgba(124, 58, 237, 0.18);
+  border: 1px solid var(--mesh-accent);
+  border-radius: 0.5rem;
   text-align: center;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 1rem;
+  font-size: 1.4rem;
 }
-
-.feature-placeholder h1 {
-  font-size: 1.6rem;
-  margin: 0;
+.wf-role strong {
   color: var(--mesh-accent);
+  display: block;
+  font-size: 2rem;
+  margin-top: 0.2rem;
 }
-
-.feature-placeholder p {
-  max-width: 32rem;
-  margin: 0;
-  opacity: 0.85;
-  line-height: 1.5;
+.wf-role-werewolf {
+  background: rgba(220, 38, 38, 0.18);
+  border-color: #fb7185;
 }
-
-.feature-status {
-  font-size: 0.85rem;
-  opacity: 0.6;
-  font-variant-numeric: tabular-nums;
+.wf-role-werewolf strong {
+  color: #fb7185;
 }
