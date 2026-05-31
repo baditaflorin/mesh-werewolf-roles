@@ -1,7 +1,7 @@
 # mesh-werewolf-roles
 
 [![pages](https://img.shields.io/badge/live-baditaflorin.github.io%2Fmesh-werewolf-roles-7c3aed)](https://baditaflorin.github.io/mesh-werewolf-roles/)
-[![version](https://img.shields.io/badge/version-0.1.0-blue)](https://github.com/baditaflorin/mesh-werewolf-roles/blob/main/package.json)
+[![version](https://img.shields.io/badge/version-0.1.1-blue)](https://github.com/baditaflorin/mesh-werewolf-roles/blob/main/package.json)
 [![license](https://img.shields.io/badge/license-MIT-green)](./LICENSE)
 
 > Secret role assignment for Werewolf/Mafia — sealed in QR, revealed only on your phone
